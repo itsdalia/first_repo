@@ -1,4 +1,5 @@
 void main() {
+   // first task
   int hour = 12;
     print(hour);
 
@@ -14,4 +15,8 @@ void main() {
 
   var city = "SUDAN";
      print(city);
+
+     ///////
+     ///second task
+     ///
 }
