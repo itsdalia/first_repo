@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: const Color(0xFFF5F5F5),
-        body: Center(child: BusinessCard()),
+        body: SingleChildScrollView(
+          padding: const EdgeInsets.symmetric(vertical: 32),
+          child: Center(child: BusinessCard()),
+        ),
       ),
     );
   }
@@ -53,7 +56,7 @@ class BusinessCard extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           const Text(
-            'Dalia Hassan',
+            'Dalia Mohamed',
             style: TextStyle(
               color: Colors.black87,
               fontSize: 22,
@@ -103,7 +106,7 @@ class BusinessCard extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
-              SocialIcon(icon: Icons.chat), // شكل واتساب
+              SocialIcon(icon: Icons.chat),
               SizedBox(width: 12),
               SocialIcon(icon: Icons.business_center),
               SizedBox(width: 12),

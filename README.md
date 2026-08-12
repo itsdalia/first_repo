@@ -1,6 +1,8 @@
 # my_app
 
-A new Flutter project.
+A new Flutter project — Business Card UI.
+
+![Business Card Preview](screenshots/card.png)
 
 ## Getting Started
 
